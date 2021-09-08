@@ -1,7 +1,8 @@
 body { 
     background-color: #e52165; 
     color: white; 
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo 2', cursive; 
+    height: 600px;
 } 
 .head { 
     display: flex; 
@@ -34,10 +35,7 @@ h1 {
 hr { 
     font-weight: bolder;
 }
-#submit { 
-    margin-left : 38rem; 
-    margin-top: 1rem;
-} 
+
 
 #success { 
     display: none;
@@ -59,4 +57,9 @@ hr {
 #invalid-email { 
     color: red; 
     display: none;
+}
+.sbtn { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
