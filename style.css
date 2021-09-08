@@ -1,0 +1,62 @@
+body { 
+    background-color: #e52165; 
+    color: white; 
+    font-family: 'Baloo 2', cursive;
+} 
+.head { 
+    display: flex; 
+    justify-content: center;
+    background-color: #0d1137; 
+    margin : 2rem 7rem; 
+    border-radius: 2rem;
+} 
+
+.form {  
+    padding: 1rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.container {   
+    background-color: #0d1137; 
+    border-radius: 2rem; 
+    padding: 2rem 2rem;
+}
+h1 { 
+    text-align: center; 
+    margin-bottom: 2rem; 
+    margin-top: 2rem; 
+    /* font-family: "Segoe UI";   */
+    color : white;
+    font-weight: bold;
+}   
+ 
+hr { 
+    font-weight: bolder;
+}
+#submit { 
+    margin-left : 38rem; 
+    margin-top: 1rem;
+} 
+
+#success { 
+    display: none;
+} 
+
+#failure{ 
+    display: none;
+}  
+
+#invalid-name { 
+    color: red; 
+    display: none;
+} 
+
+#invalid-phone { 
+    color: red; 
+    display: none;
+}
+#invalid-email { 
+    color: red; 
+    display: none;
+}
